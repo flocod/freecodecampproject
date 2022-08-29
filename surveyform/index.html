@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <main id="main">
+        <div class="struct">
+
+
+            <h1 id="title">Enquette demographique</h1>
+            <p id="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus iusto consequatur voluptates ab possimus cum fugiat porro labore enim amet ducimus eius repellendus eligendi dolorum, perspiciatis dicta veniam temporibus pariatur, voluptas ex reiciendis maxime consequuntur. Dicta soluta tempore dolores voluptatibus error, quo veritatis magnam quidem minus perferendis, esse quod provident?</p>
+        
+            <form action="" id="survey-form">
+        
+                <div class="input_elm">
+                    <label for="name" id="name-label">name</label>
+                    <input type="text" name="name" id="name" placeholder="Entrer un nom" required>
+                </div>
+                <div class="input_elm">
+                    <label for="email" id="email-label">name</label>
+                    <input type="email" name="email" id="email" placeholder="Entrer un email" required>
+                </div>
+                <div class="input_elm">
+                    <label id="number-label" for="number">name</label>
+                    <input type="number" min="1" max="100" name="number" placeholder="Entrer un nombre"  id="number">
+                </div>
+                <div class="input_elm"> </div>
+                    <label id="country-label" for="country">country</label>
+                    <select name="country" id="#dropdown">
+                        <option value="cameroun">cameroun</option>
+                        <option selected value="nigeria">nigeria</option>
+                        <option value="cameroun">cameroun</option>
+                        <option selected value="nigeria">nigeria</option>
+                    </select>
+               
+        
+                <div class="input_elm">
+                    <h4 >Quelle est votre situation matrimoniale ?</h4>
+                    <input type="radio" name="matrimoniale" value="Marié" id="">
+                    <input type="radio" name="matrimoniale" value="celibataire">
+                    <input type="radio" name="matrimoniale" value="divorcé">
+        
+                </div>
+        
+                <div class="input_elm">
+                    <h4 >Quelles sont vos besoins alimentaires ?</h4>
+                    <input type="checkbox" name="riz" value="riz">
+                    <input type="checkbox" name="banane" value="banane">
+                    <input type="checkbox" name="papaye" value="papaye">
+        
+                </div>
+              
+        
+        
+        
+                <div class="input_elm">
+                    <h4 >Dites nous qui vous êtes</h4>
+                    <textarea name="commentaires" id="" cols="30" rows="10"></textarea>
+                </div>
+               
+        
+                <br>
+                <br>
+                <button id="submit"> Envoyez</button>
+        
+        
+            </form>
+
+        </div>
+
+
+    </main>
+
+  
+
+
+</body>
+</html>
